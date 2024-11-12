@@ -9,6 +9,10 @@ app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`);
 });
 
+app.get('/', (request, response) => {
+    response.status(200).json({ message: 'API Homepage' });
+});
+
 const customerRouter = require("./routes/customers");
 app.use("/customers", customerRouter);
 
