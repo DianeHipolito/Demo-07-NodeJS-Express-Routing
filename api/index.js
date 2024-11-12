@@ -36,11 +36,11 @@ app.get('/', (request, response) => {
             h1 {
               font-size: 3rem;
               margin-bottom: 10px;
+              transition: text-shadow 0.5s ease-in-out;
             }
 
             h1:hover{
               text-shadow: 5px 5px 20px gray;
-              transition: 0.5s;
             }
   
             h4 {
