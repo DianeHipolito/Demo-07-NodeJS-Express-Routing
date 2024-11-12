@@ -39,7 +39,7 @@ app.get('/', (request, response) => {
               text-shadow: 5px 5px 20px gray;
             }
   
-            h5 {
+            h4 {
               font-size: 1.5rem;
               font-weight: 400;
             }
@@ -48,7 +48,7 @@ app.get('/', (request, response) => {
         <body>
           <div class="container">
             <h1>API Homepage</h1>
-            <h5>Hipolito, Diana Lei E.</h5>
+            <h4>Hipolito, Diana Lei E.</h4>
           </div>
         </body>
       </html>
