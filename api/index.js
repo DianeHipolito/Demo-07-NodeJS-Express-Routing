@@ -36,9 +36,10 @@ app.get('/', (request, response) => {
             h1 {
               font-size: 3rem;
               margin-bottom: 10px;
+              text-shadow: 5px 5px 20px gray;
             }
   
-            h4 {
+            h5 {
               font-size: 1.5rem;
               font-weight: 400;
             }
