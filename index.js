@@ -10,7 +10,8 @@ app.listen(PORT, () => {
 });
 
 app.get('/', (request, response) => {
-    response.status(200).json({ message: 'API Homepage' });
+    //response.status(200).json({ message: 'API Homepage' });
+    response.send('<h1>API Homepage</h1>');
 });
 
 const customerRouter = require("./routes/customers");
