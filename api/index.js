@@ -36,6 +36,7 @@ app.get('/', (request, response) => {
             h1 {
               font-size: 3rem;
               margin-bottom: 10px;
+              text-shadow: 0 0 0 transparent;
               transition: text-shadow 0.5s ease-in-out;
             }
 
