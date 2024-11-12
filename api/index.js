@@ -16,8 +16,7 @@ app.get('/', (request, response) => {
         <head>
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>API Homepage</title>
-          <!-- Google Fonts - Roboto -->
+          <title>Demo-07-NodeJS-Express-Routing</title>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
           <style>
             body {
@@ -26,11 +25,10 @@ app.get('/', (request, response) => {
               justify-content: center;
               align-items: center;
               height: 90vh;
-              margin: 0;
               background-color: #f4f4f4;
             }
   
-            .content {
+            .container {
               text-align: center;
               color: #333;
             }
@@ -47,9 +45,9 @@ app.get('/', (request, response) => {
           </style>
         </head>
         <body>
-          <div class="content">
+          <div class="container">
             <h1>API Homepage</h1>
-            <h4>Hipolito, Diana Lei E.</h4>
+            <h5>Hipolito, Diana Lei E.</h5>
           </div>
         </body>
       </html>
